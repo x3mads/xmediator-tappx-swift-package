@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorTappx", targets: ["XMediatorTappxTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/tappx-com/TappxSDK-swift-package-manager.git", exact: "4.2.14"),
+        .package(url: "https://github.com/tappx-com/TappxSDK-swift-package-manager.git", exact: "4.2.15"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.163.0")),
     ],
     targets: [
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorTappx",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorTappx/XMediatorTappx-4.2.14.0.zip",
-            checksum: "d16be4b116a8b3d0d748a3d9befafdd6fc0576322ef9bf25fed09fe26cdad820"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorTappx/XMediatorTappx-4.2.15.0.zip",
+            checksum: "7d44df39ab92a2ae1e97e719e5341a1c2f9e74e9fe4af2d6bd7668323455ebd4"
         ),
     ]
 )

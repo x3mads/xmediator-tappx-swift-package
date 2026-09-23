@@ -18,7 +18,7 @@ To integrate `XMediatorTappx` into your Xcode project using Swift Package Manage
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-tappx-swift-package", exact: "4.2.1400")
+    .package(url: "https://github.com/x3mads/xmediator-tappx-swift-package", exact: "4.2.1500")
 ]
 ```
 
